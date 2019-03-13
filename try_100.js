@@ -1,8 +1,16 @@
-var n;
+//Enter any number greater than 100
+//when number is greater than 100
+//print ok
+//when number is less than 100
+//enter again
 
-while (n>100)
 
-console.log()
-{
-  
+//console.log("Please input a number greater than 100")
+
+var n = 567;
+
+if (n<100){
+  console.log("TRY AGAIN");
+}else {
+  console.log("OKAY!")
 }
