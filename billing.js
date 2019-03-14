@@ -1,11 +1,9 @@
 
-var x = 0.025;
 
-var y = 100000;
 
-function billed_amount (transactionCharge, amountTendered){
-var billedAmount = amountTendered-(transactionCharge * amountTendered);
-return "This is the billed amount:" + billedAmount;
+const billed_amount = (transactionCharge, amountTendered) =>
+amountTendered-(transactionCharge * amountTendered);
 
-}
-console.log(billed_amount (x, y));
+
+
+console.log("This is the billed amount " + billed_amount (0.025, 100000));
