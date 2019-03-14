@@ -1,12 +1,16 @@
-//Enter a number
-//Entered number when devided by 2 leaves a remainder
-//Or when devided by 3 leaves a remainder
-//print the number
+//Prints prime numbers up to 30
 
-var n;
 
-for (n = 30; n<= 30; n++){
-  if (n % 2 == 0) {
-    console.log(n);
+var n=30;
+for (var num = 2; num <= n; num++) {
+
+  var notPrime = false;
+  for (var a = 2; a <= num; a++) {
+      if (num%a===0 && a!==num) {
+          notPrime = true;
+      }
+  }
+  if (notPrime === false) {
+    console.log(num);
   }
 }
