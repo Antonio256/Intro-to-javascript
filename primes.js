@@ -1,4 +1,4 @@
-const shuffle = require('./shuffle');
+const shuffle = require('./shuffler');
 var arr = [];
 
 
@@ -20,7 +20,6 @@ const primelogger = (min, max) => {
   arr.push(Number);
 
     }
-
   }
   //return 0;
 }
