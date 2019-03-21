@@ -1,3 +1,10 @@
+/*
+Create a constant to shufle the prime numbers generated
+create a maximum limit for prime numbers, counting and checking through them
+
+
+*/
+
 const shuffle = require('./shuffler');
 var arr = [];
 
